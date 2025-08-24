@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/ingredients"; // backend url
+const API_URL = "https://ingredients-service.onrender.com/api/ingredients"; // backend url
 
 // Create ingredient
 export const createIngredient = async (ingredientData) => {
